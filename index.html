@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <div class="splash-container">
+
+        <div class="logo-container">
+            <img src="bird.svg" alt="Elysoar logo">
+            <span>Elysoar</span>
+        </div>
+
+        <p class="splash-credits">
+            Logo by 
+            <a href="https://www.vecteezy.com/members/lavarmsg">lavarmsg</a>
+            on 
+            <a href="https://www.vecteezy.com/vector-art/95839-bird-black-logo-vectors">vecteezy</a>, photo by 
+            <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on 
+            <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a>
+        </p>
+    </div>
+
+    <div class="site-screen">
+        <div>
+            <p>
+                This is not a real online service!
+                You know you need something like this in your life to help you realize your deepest dreams.
+                Sign up now to get started.
+            </p>
+            <p>
+                You know you want to. 
+            </p>
+        </div>
+
+        <form action="" id="signup">
+            <h2>Let's do this!</h2>
+            
+            <div class="form-row">
+                <label for="first-name">
+                    First name
+                    <input required type="text" name="first-name" id="first-name">
+                </label>
+                <label for="last-name">
+                    Last name
+                    <input required type="text" name="last-name" id="last-name">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label for="email">
+                    Email
+                    <input required type="email" name="email" id="email">
+                </label>
+                <label for="phone-number">
+                    Phone number
+                    <input required type="tel" name="phone-number" id="phone-number">
+                </label>
+            </div>
+            
+            <div class="form-row">
+                <label for="password">
+                    Password
+                    <input required type="password" name="password" id="password">
+                </label>
+                <label for="confirm-password">
+                    Confirm password
+                    <input required type="password" name="confirm-password" id="confirm-password">
+                </label>
+            </div>
+        </form>
+
+        <div>
+            <button type="submit" form="signup">Sign up</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </div>
+    </div>
+
+    
+</body>
+</html>
